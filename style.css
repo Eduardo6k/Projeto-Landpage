@@ -35,6 +35,9 @@ body{
 .conteudo{
     border-top:0.3px solid white;
     margin-bottom:30px;
+    display:flex;
+    flex-wrap: wrap;
+
 }
 .conteudo-principal{
     display:flex;

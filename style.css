@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swop");
+/* @import url("http://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swop"); */
 *{
     margin:0;
     padding:0;
@@ -7,7 +7,7 @@
 }
 body{
     font-size:100%;
-    background:url("../imagens/fundo.jpg") repeat-y ;
+    background:url("imagens/fundo.jpg") repeat-y ;
 }
 .cabecalho{
     display:flex;
@@ -48,7 +48,7 @@ body{
     gap:35px;
 }
 .conteudo-principal-escrito-titulo{
-    font-family:"Righteous",cursive;
+    font-family:"Righteous",sans-serif;
     font-size:70px;
     font-weight:600px;
     color:#393e45;
@@ -91,7 +91,7 @@ body{
 .conteudo-secundario-paragrafo{
     margin-top:16px;
     font-size:22px;
-    font-family:"Sarala",cursive;
+    font-family:"Sarala",sans-serif;
 }
 .rodape{
     margin-top:100px;
